@@ -5,10 +5,10 @@ import Image from 'next/image'
 export default function Cabecalho(){
     return(
         <header>
-            <div>
+            <div className="logo-porto">
                 <Link href='/maps'><Image src="logotipo1." alt="Logotipo Porto Seguro-SOS"></Image></Link>
             </div>
-            <div>
+            <div className="menu">
                 <nav>
                     <Link href="/maps">Solicitação</Link>
                     <span> | </span>
