@@ -6,14 +6,17 @@ export default function Cabecalho(){
     return(
         <header>
             <div>
+                <Link href='/maps'><Image src="logotipo1." alt="Logotipo Porto Seguro-SOS"></Image></Link>
+            </div>
+            <div>
                 <nav>
-                    <Link to="/maps">Solicitação</Link>
+                    <Link href="/maps">Solicitação</Link>
                     <span> | </span>
-                    <Link to="/sobre">Sobre</Link>
+                    <Link href="/sobre">Sobre</Link>
                     <span> | </span>
-                    <Link to="/contato">Contato</Link>
+                    <Link href="/contato">Contato</Link>
                 </nav>
-                <Link to="/" title="Sair da Conta"><Image src="/usuario.svg" alt=""></Image></Link>
+                <Link href="/" title="Sair da Conta"><Image src="/usuario.svg" alt=""></Image></Link>
             </div>
         </header>
     )
